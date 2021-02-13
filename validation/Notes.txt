@@ -1,0 +1,21 @@
+A default value --> This optional. Not setting a default value make it mandatory to enter a default value.
+
+var.<name of variable> --> refer the varaiable loop.
+
+terraform.tfvars --> variable value defined
+
+terraform plan -var "location=xxx" --> overrive the variable file using var.
+
+validation --> to verfity varaiable value with your defined condition.
+
+
+Index finds the element index for a given value in a list.
+
+index(list, value)
+The returned index is zero-based. This function produces an error if the given value is not present in the list.
+
+»Examples
+> index(["a", "b", "c"], "b")
+1
+
+https://www.terraform.io/docs/language/functions/index_function.html
