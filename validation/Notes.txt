@@ -19,3 +19,10 @@ The returned index is zero-based. This function produces an error if the given v
 1
 
 https://www.terraform.io/docs/language/functions/index_function.html
+
+Can()
+The can() function attempts to execute the following code provided inside of it and returns a boolean value. The main purpose behind can() function is input validation according to the official documentation. Let’s put it to test.
+
+regex applies a regular expression to a string and returns the matching substrings.
+
+regex(pattern, string)
